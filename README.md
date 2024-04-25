@@ -8,4 +8,4 @@ lalu ada class beli yang merupakan inheritance dari class shell
 
 
 Berikut adalah link untuk mengaksesnya
-http://ramenchina.free.nf/bbm.php
+http://ramenchina.free.nf/shell
