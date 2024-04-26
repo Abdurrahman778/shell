@@ -41,8 +41,10 @@ require 'bbm.php';
                                     <option value="Nitro">Shell V-Power Nitro</option>
                                 </select>
                             </div>
-                            <input type='number' name='uang' class='form-control my-3 py-2'
-                                placeholder='masukan jumlah uang'>
+                            <div class="col">
+                                <input type='number' name='uang' class='form-control my-3 py-2'
+                                    placeholder='masukan jumlah uang'>
+                            </div>
                             <div class="d-grid">
                                 <button type="submit" name="submit" class="btn btn-success">Hitung</button>
                             </div>
@@ -88,9 +90,8 @@ require 'bbm.php';
                 </div>
                 <div class="modal-footer">
                     <?php 
-                        echo '<button type="button" class="btn btn-secondary" onclick=window-print() name="cetak" data-bs-dismiss="modal">Print Struk</button>';
+                        echo '<button type="submit" class="btn btn-secondary" onclick=window-print() name="cetak">Print Struk</button>';
                     ?>
-                    
                 </div>
             </div>
         </div>
